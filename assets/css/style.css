@@ -1838,6 +1838,3 @@ input[type=range].lower::-webkit-slider-runnable-track {
 	/* -webkit-box-shadow: inset 0 0 6px #06244a; */
 	background-color: #06244a;
 }
-body{
-    color: #fff;
-}
