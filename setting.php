@@ -59,7 +59,7 @@
             <div class="tab-pane fade" id="pills-MyAccount" role="tabpanel" aria-labelledby="pills-MyAccount-tab">
                 <div class="myAcc-wrapper">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-12">
+                        <div class="col-lg-6 col-md-12 col-12">
                             <div class="property_Owner_section">
                                 <div class="property_Owner_detail">
                                     <div class="ownerImg">
@@ -87,7 +87,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-12">
+                        <div class="col-lg-6 col-md-12 col-12">
                             <div class="booking_confirmation_modal">
                                 <div class="modal-dialog modal-dialog-centered">
                                     <div class="modal-content">

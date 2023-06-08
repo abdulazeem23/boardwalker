@@ -74,7 +74,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 999999;
+    z-index: 111;
     background: #fff;
     background-size: cover;
     background-position: center;
@@ -93,7 +93,7 @@ body {
 .header_menu_button {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 10px;
 }
 .serach_filter {
     display: flex;
@@ -319,17 +319,27 @@ body {
     color: #06244A;
     background-color: #00F9FF;
     font-weight: 500;
-    margin-right: 30px;
 }
 .menu_links .one {
     display: flex;
     align-items: center;
+    justify-content: left;
     gap: 15px;
     font-size: 16px;
     font-weight: 600;
     color: #fff;
     padding: 10px 15px;
     border-radius: 0px 12px 12px 0px;
+    margin-right: 30px;
+}
+.menu_links .one .blue_icon {
+    display: none;
+}
+.menu_links .one.active .blue_icon {
+    display: block;
+}
+.menu_links .one.active .white_icon {
+    display: none;
 }
 .menu_links {
     display: flex;
@@ -354,11 +364,7 @@ body {
     gap: 10px;
 }
 .properties_box_wrappper {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 15px;
+    column-count: 5;
 }
 .properties_box {
     position: relative;
@@ -370,6 +376,7 @@ body {
     border: 2px solid #06244A;
     padding: 10px;
     border-radius: 12px;
+    margin-bottom: 15px;
 }
 .property_img img {
     width: 100%;
@@ -1444,7 +1451,8 @@ body {
     justify-content: center;
     border-bottom: 1px solid #747474;
     padding-bottom: 0;
-    width: calc(100% - 400px);
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .setting_inner_content .nav-pills .nav-link {
@@ -1669,7 +1677,7 @@ input[type=range].lower::-webkit-slider-runnable-track {
     width: 100%;
     max-width: 500px;
     padding: 20px 10px;
-    height: 800px;
+    height: 700px;
     overflow-y: scroll;
 }
 .chatRight {
@@ -1767,6 +1775,7 @@ input[type=range].lower::-webkit-slider-runnable-track {
     border-radius: 16px;
     height: 90px;
     gap: 10px;
+    margin: 20px 0;
 }
 .chatFooter input {
     width: calc(100% - 140px);
@@ -1795,7 +1804,7 @@ input[type=range].lower::-webkit-slider-runnable-track {
 .user_msg_detail {
     position: relative;
     padding: 20px 10px;
-    height: 680px;
+    height: 600px;
     overflow-y: scroll;
 }
 .chatLeft::-webkit-scrollbar-track

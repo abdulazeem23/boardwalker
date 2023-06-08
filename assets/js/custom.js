@@ -23,15 +23,36 @@ $(".three-dotted").click(function(){
 	$('.userprofile_report').toggleClass("active");
   });
 
-// ONLOAD ANIMATION START
-window.addEventListener('load', () => {
-	var fadeTarget = document.getElementById("loading");
-	var fadeEffect = setTimeout(function() {
-		fadeTarget.style.opacity = "0";
-		fadeTarget.style.zIndex = "-9999";
-	}, 100);
-});
-// ONLOAD ANIMATION END
+// Menu Burger Js
+  var state = "expanded";
+  //Check if navbar is expanded or minimized and handle 
+  $('.menu_burger').click(function() {
+	  if (state == "expanded") {
+		  $('.header_left').css('max-width', '150px');
+		  $('.header_left').css('transition', 'all 0.3s ease-in-out');
+		  $('.header_right ').css('width', 'calc(100% - 150px)');
+		  $('.header_right ').css('transition', 'all 0.3s ease-in-out');
+		  $('.rightContent_wrapper').css('width', 'calc(100% - 150px)');
+		  $('.rightContent_wrapper').css('transition', 'all 0.3s ease-in-out')
+		  $('.menu_links .one span').css('display', 'none');
+		  $('.menu_links .one span').css('transition', 'all 0.3s ease-in-out');
+		  $('.menu_links .one').css('justify-content', 'center')
+		  $('.left_menu_logo a img').css('max-width', '100px');
+		  $('.left_menu_logo a img').css('transition', 'all 0.3s ease-in-out');
+		  state = "minimized";
+	  } 
+	  else {
+		  if (state == "minimized") {
+			  $('.header_left').css('max-width', '250px');
+			  $('.header_right').css('width', 'calc(100% - 250px)');
+			  $('.rightContent_wrapper').css('width', 'calc(100% - 250px)');
+			  $('.menu_links .one span').css('display', 'block');
+			  $('.menu_links .one').css('justify-content', 'left')
+			  $('.left_menu_logo a img').css('max-width', '130px');
+			  state = "expanded";
+		  }
+	  }
+  })
 
 // Properties Boxes Slider Js
 var swiper = new Swiper(".propertyBoxSwiper", {

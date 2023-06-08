@@ -556,6 +556,8 @@
 <!-- JAVASCRIPT SHEETS -->
 <script src="assets/js/custom.js"></script> 
 <!-- JAVASCRIPT SHEETS -->
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <!-- data-fancybox="gallery" data-src="" -->
 
 <script>
@@ -627,6 +629,11 @@ jQuery(document).ready(function() {
 	});
 	
 });
+</script>
+
+
+<script>
+  AOS.init();
 </script>
 
 </body>

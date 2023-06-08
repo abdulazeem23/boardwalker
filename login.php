@@ -23,7 +23,7 @@
 				<button class="genBtn logBtn mb-4" type="button"><img src="assets/images/guest-icon.png" alt=""> Continue As a Guest</button>	
 				<button class="genBtn logBtn mb-3 mt-4 clrG" type="button"> <i class="fa-brands fa-google me-2"></i> Continue with Google</button>
 				<button class="genBtn logBtn clrA" type="button"><i class="fa-brands fa-apple me-2"></i> Continue with Apple</button>
-				<p class="resendBtn">Don't have an account? <a href="#!">Sign Up</a></p>	
+				<p class="resendBtn">Don't have an account? <a href="sign-up.php">Sign Up</a></p>	
 			</form>
 		</div>
 	</div>

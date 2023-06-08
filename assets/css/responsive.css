@@ -1,281 +1,104 @@
 @media only screen and (max-width:1750px){}
-@media only screen and (max-width:1600px){}
-@media only screen and (max-width:1540px){
-	.absImg1 {
-		max-width: 580px;
+@media only screen and (max-width:1600px){
+	.properties_box_wrappper {
+		column-count: unset;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px;
 	}
-	.headingMain {
-		font-size: 40px;
-	}
-	.descMain {
-		font-size: 16px;
-	}
-}
-@media only screen and (max-width:1440px){}
-@media only screen and (max-width:1366px){}
-@media only screen and (max-width:1280px){}
-@media only screen and (max-width:1024px){
-	.index-banner {
-		min-height: 640px;
-		padding-top: 285px;
-	}
-	.index-banner.banner-17 {
-		padding-top: 355px;
-	}
-	.absImg1 {
-		max-width: 480px;
-	}
-	.heading {
-		font-size: 25px;
-	}
-	.desc {
-		font-size: 14.5px;
-	}
-	.providerCard img {
-		max-width: 175px;
-	}
-	.providerCard .textBox {
-		max-width: 235px;
-	}
-	.providerCard .heading {
-		font-size: 22.5px;
-	}
-	/* ======= Setting page responsive  ======== */
-	.setting_section_right{
-		width: 100%;
-	}
-	/*  */
-	/* ============ Chat Screen responsive ============= */
-	.chat_screen_left {
-		max-width: 350px;
-	}
-	.chat_screen_right {
-		width: calc(100% - 350px);
-	}
-}
-@media only screen and (max-width:991px){}
-@media only screen and (max-width: 910px){
-	/*===== Setting page responsive =====*/
-	.setting_section_wrapper{
-		flex-direction: column;
-	}
-	/*  */
-	/* ==== Chat Screen responsive ===== */
-	.chat_screen_left {
-		max-width: 300px;
-	}
-	.chat_screen_right {
-		width: calc(100% - 300px);
-	}
-	.profile_photo {
-		width: 100%;
-		max-width: 70px;
-	}
-	/*  */
-}
-@media only screen and (max-width:767px){
-	.absImg1 {
-		opacity: 0.2;
-	}
-	.genPadding {
-		padding: 80px 0px;
-	}
-	.providerCard {
-		height: auto;
-		flex-direction: column;
-	}
-	.providerCard .textBox {
-		max-width: 235px;
-		padding: 10px 0px;
-	}
-	.genCard1.type2 .imgBox img {
-		max-width: 100%;
-		height: auto;
-	}
-	.genCard1.type2 {
+	.properties_box {
 		max-width: 280px;
-		margin: 15px auto;
 	}
-	.footerCol {
-		max-width: 165px;
-	}
-	.fTitle {
-		font-size: 18px;
-	}
-	.headingMain {
-		font-size: 30px;
-	}
-	.searchFilter {
-		align-items: flex-start;
-		flex-direction: column;
-		padding: 20px!important;
-	}
-	.fGroup {
-		border-left: 0;
-		border-right: 0;
-		padding: 0!important;
-		margin-bottom: 5px;
-	}
-	.searcBtn {
+	.myAcc-wrapper {
 		width: 100%;
-		height: 55px;
-		position: unset;
-		border-radius: 5px;
-		margin-top: 15px;
 	}
-	.index-banner, 
-	.index-banner.banner-17 {
-		padding-top: 200px;
+}
+@media only screen and (max-width:1440px){
+	.properties_box {
+		max-width: 260px;
 	}
-	header {
-		padding: 10px 0px;
+	.serach_filter{
+		max-width: 450px;
+	}	
+	.chatLeft{
+		max-width: 400px;
 	}
-	.logImgbox {
+	.chatRight {
+		width: calc(100% - 400px);
+	}
+}
+@media only screen and (max-width:1280px){
+	.header_left {
+		max-width: 200px !important;
+	}
+	.header_right {
+		width: calc(100% - 200px) !important;
+	}
+	.rightContent_wrapper {
+		width: calc(100% - 200px) !important;
+	}
+}
+@media only screen and (max-width:1200px){
+	.header_left {
+		max-width: 150px !important;
+	}
+	.header_right {
+		width: calc(100% - 150px) !important;
+	}
+	.rightContent_wrapper {
+		width: calc(100% - 150px) !important;
+	}
+	.left_menu_logo a img {
+		max-width: 100px !important;
+	}
+	.addProperty_wrapper {
+		max-width: 700px;
+		padding: 10px 20px;
+	}
+	.bookingDetail_section .nav-pills .nav-link {
+		font-size: 16px;
+		padding: 0 10px;
+	}
+	.payment_options {
+		flex-wrap: wrap;
+	}
+	.inbox-content {
+		gap: 30px;
+	}
+	.chatLeft {
+		max-width: 370px;
+	}
+	.chatRight {
+		width: calc(100% - 370px);
+	}
+	.chatLeft .ownerImg {
 		max-width: 60px;
 	}
-	.about-sec-2 .textBox .heading {
-		font-size: 35px;
+	.chatLeft .owner_desc {
+		width: calc(100% - 130px);
 	}
-	.cityCard .heading {
-		font-size: 16px;
+	.chat-time-msg {
+		max-width: 70px;
 	}
-	.cityCard .desc {
-		font-size: 14px;
-	}
-	.about-sec-1 .infoBox, .career-sec-1 .infoBox {
-		padding-left: 0;
-		padding: 20px 0px;
-	}
-	.navItem {
-		font-size: 14px;
-	}
-	.navigation {
-		padding: 10px 10px;
-		top: 60px;
-	}
-	.orderDetail1 {
-		padding-top: 30px;
-	}
-	.pricing {
-		font-size: 20px;
-	}
-	.cartCard .textBox .title, .cartCard .textBox .info {
-		font-size: 16px;
-	}
-	.cartCard .textBox {
-		padding: 35px 20px;
-		flex-direction: column;
-		align-items: flex-start;
-	}
-	.cartCard .imgBox {
-		max-width: 310px;
-		border-right: 0;
-	}
-	.cartCard {
-		flex-direction: column;
-	}
-	.checkOutBox {
-		margin-bottom: 15px;
-	}
-	.become-host-sec-2 .genBar .heading {
-		font-size: 30px;
-	}
-	.index-banner.banner-17 {
-		min-height: 345px;
-	}
-	/* chat screen */
-	.chat_screen_content{
-		flex-direction: column;
-	}
-	.chat_screen_left {
-		max-width: 100%;
-	}
-	.chat_screen_right {
-		width: 100%;
-	}
-	/*  */
-	.intialRow {
-		flex-direction: column;
-	}
-	.intialRow .leftCol {
-		display: none;
-	}
-	.intialRow .rightCol {
-		width: 100%;
-	}
-	.logoBox1 {
-		max-width: 120px;
+	.menu_links .one{
+		margin-right: 0;
 	}
 }
-@media only screen and (max-width:660px){}
-@media only screen and (max-width:575px){
-/*	.genCard1 .imgBox img {
-		max-width: 150px;
-		height: 150px;
-	}*/
-	.genCard1 .textBox {
-		flex-direction: column;
-		justify-content: flex-start;
-		align-items: flex-start;
-	}
-	.genCard1 .name, .ratingPoints, .genCard1 .price {
-		font-size: 15px;
-	}
-	.slideArrows {
-		max-width: 100px;
-	}
-	.moveBtn {
-		width: 42px;
-		height: 42px;
-		font-size: 20px;
-	}
-	.btnMw {
-		max-width: 145px;
-		height: 45px;
-		font-size: 15px;
-	}
-	.about-sec-2 .textBox .heading {
-		font-size: 25px;
-	}
-	.about-sec-2 {
-		min-height: 400px;
-	}
-	.genPadding {
-		padding: 60px 0px;
-	}
-	.heading {
-		font-size: 22px;
-	}
-	.fTitle {
-		font-size: 16px;
-	}
-	.fLink {
-		font-size: 14px;
-	}
-	.footerCol {
-		max-width: 150px;
-	}
-	.upload_photo {
-		justify-content: space-between;
-	}
-	.genBtnBlue, .genBtnWhite {
-		max-width: 150px;
-	}
-	.logHeading {
-		font-size: 28px;
-	}
-	.avatar-upload .avatar-edit {
-		bottom: 0;
-		right: 0;
-	}
-	.avatar-upload {
-		max-width: 120px;
-	}
-	.avatar-upload .avatar-preview {
-		width: 120px;
-		height: 120px;
+@media screen and (max-width: 1024px){
+	.property_Owner_section{
+		margin: 0 auto;
 	}
 }
-@media only screen and (max-width:480px){}
-@media only screen and (max-width:375px){}
-@media only screen and (max-width:340px){}
+@media screen and (max-width:991px){
+	.inbox-content {
+		flex-direction: column;
+	}
+	.chatLeft {
+		max-width: 500px;
+		margin: 0 auto;
+		height: 400px;
+	}
+	.chatRight {
+		width: 100%;
+	}
+}

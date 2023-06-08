@@ -37,9 +37,10 @@
 </head>
 
 <body>
-	<div id="loading" class="splashScreen xy-center">
-		<img src="assets/images/logo.png" alt="img" class="splashLogo zoom-in-zoom-out ">
-	</div>
+	<!-- <div id="loading" class="splashScreen xy-center">
+		<img src="assets/images/logo.png" alt="img" class="splashLogo" data-aos="fade-up"
+     data-aos-duration="3000">
+	</div> -->
 	<header class="main_header">
 		<aside class="header_left">
 			<div class="left_menu_wrapper">
@@ -51,15 +52,18 @@
 				<div class="menu_links_wrapper">
 					<div class="menu_links">
 						<a class="one" href="index.php">
-							<img src="assets/images/home-icon.png" alt="">
+							<img class="white_icon" src="assets/images/home-icon.png" alt="">
+							<img class="blue_icon" src="assets/images/home-icon-blue.png" alt="">
 							<span>Home</span>
 						</a>
 						<a class="one" href="inbox.php">
-							<img src="assets/images/Inbox-icon.png" alt="">
+							<img class="white_icon" src="assets/images/Inbox-icon.png" alt="">
+							<img class="blue_icon" src="assets/images/Inbox-icon-blue.png" alt="">
 							<span>Inbox</span>
 						</a>
 						<a class="one" href="booking.php">
-							<img src="assets/images/Bookings-icon.png" alt="">
+							<img class="white_icon" src="assets/images/Bookings-icon.png" alt="">
+							<img class="blue_icon" src="assets/images/Bookings-icon-blue.png" alt="">
 							<span>My Bookings</span>
 						</a>
 					</div>
@@ -77,14 +81,14 @@
 							<h1 class="title">Welcome John Smith</h1>
 						</div>
 					</div>
-					<div class="col-lg-6 col-md-6 col-12">
+					<div class="col-lg-5 col-md-5 col-12">
 						<div class="serach_filter">
 							<a class="filter_btn" data-bs-toggle="modal" href="#filterModal" role="button">Filter <img src="assets/images/filter-icon.png" alt=""></a>
 							<input type="text" placeholder="Search">
 							<a href="javascript:void(0)" class="search_icon"><img src="assets/images/search-icon.png" alt=""></a>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-3 col-12">
+					<div class="col-lg-4 col-md-4 col-12">
 						<div class="guest_profile_section">
 							<div class="notif_setting">
 								<a class="notif_icon" href="javascript:void(0)"><img src="assets/images/notification-icon.png" alt=""></a>
