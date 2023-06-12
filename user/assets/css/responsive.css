@@ -1,0 +1,206 @@
+@media only screen and (max-width:1860px){
+	.property-detail-rightSec .properties_box {
+		max-width: 280px;
+	}
+}
+@media only screen and (max-width:1750px){
+	.property_detail_leftCol {
+		max-width: 650px;
+	}
+	.property_detail_rightCol {
+		width: calc(100% - 700px);
+		margin: 0 0 0 auto;
+	}
+}
+@media only screen and (max-width:1600px){
+	.properties_box_wrappper {
+		column-count: unset;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+	.properties_box {
+		max-width: 280px;
+	}
+	.myAcc-wrapper {
+		width: 100%;
+	}
+	.property_detail_leftCol {
+		width: 100%;
+		max-width: 600px;
+	}
+	.property_detail_rightCol {
+		width: calc(100% - 650px);
+		margin: 0 0 0 auto;
+	}
+}
+@media only screen and (max-width:1440px){
+	.properties_box {
+		max-width: 260px;
+	}
+	.serach_filter{
+		max-width: 450px;
+	}	
+	.chatLeft{
+		max-width: 400px;
+	}
+	.chatRight {
+		width: calc(100% - 400px);
+	}
+	.propertydetail_rightCol_innerRow{
+		justify-content: end;
+	}
+	.property-detail-rightSec .properties_box {
+		max-width: 320px;
+	}
+}
+@media only screen and (max-width:1280px){
+	.header_left {
+		max-width: 200px !important;
+	}
+	.header_right {
+		width: calc(100% - 200px) !important;
+	}
+	.rightContent_wrapper {
+		width: calc(100% - 200px) !important;
+	}
+}
+@media only screen and (max-width:1200px){
+	.header_left {
+		max-width: 150px !important;
+	}
+	.header_right {
+		width: calc(100% - 150px) !important;
+	}
+	.rightContent_wrapper {
+		width: calc(100% - 150px) !important;
+	}
+	.left_menu_logo a img {
+		max-width: 100px !important;
+	}
+	.addProperty_wrapper {
+		max-width: 700px;
+		padding: 10px 20px;
+	}
+	.bookingDetail_section .nav-pills .nav-link {
+		font-size: 16px;
+		padding: 0 10px;
+	}
+	.payment_options {
+		flex-wrap: wrap;
+	}
+	.inbox-content {
+		gap: 30px;
+	}
+	.chatLeft {
+		max-width: 370px;
+	}
+	.chatRight {
+		width: calc(100% - 370px);
+	}
+	.chatLeft .ownerImg {
+		max-width: 60px;
+	}
+	.chatLeft .owner_desc {
+		width: calc(100% - 130px);
+	}
+	.chat-time-msg {
+		max-width: 70px;
+	}
+	.menu_links .one{
+		margin-right: 0;
+	}
+	.User-profile-section {
+		padding: 30px 20px;
+		gap: 10px;
+	}
+	.user_rightSec {
+		padding-left: 0;
+	}
+}
+@media screen and (max-width: 1140px){
+	.property_detail_row {
+		flex-direction: column;
+	}
+	.property_detail_leftCol {
+		width: 100%;
+		max-width: 100%;
+	}
+	.property_detail_img img {
+		max-width: 100%;
+	}
+	.property_detail_rightCol {
+		width: 100%;
+	}
+	.propertydetail_rightCol_innerRow {
+		justify-content: flex-start;
+	}
+}
+@media screen and (max-width: 1024px){
+	.property_Owner_section{
+		margin: 0 auto;
+	}
+	.property_type_option{
+		flex-wrap: wrap;
+	}
+}
+@media screen and (max-width:991px){
+	.inbox-content {
+		flex-direction: column;
+	}
+	.chatLeft {
+		max-width: 500px;
+		margin: 0 auto;
+		height: 400px;
+	}
+	.chatRight {
+		width: 100%;
+	}
+	.header_menu_button .title {
+		display: none;
+	}
+	.bookingDetail_section .nav-pills .nav-link{
+		margin-bottom: 15px;
+	}
+	.guest_profile_btn{
+		width: 180px;
+	}
+}
+@media screen and (max-width: 910px){
+	.User-profile-section {
+		flex-direction: column;
+	}
+	.user_leftSec {
+		flex-direction: row;
+		justify-content: flex-start;
+		max-width: 100%;
+		gap: 20px;
+	}
+	.userPicture img {
+		width: 100px;
+		height: 100px;
+	}
+	.user_rightSec {
+		width: 100%;
+	}
+	.profile_editSection {
+		position: absolute;
+		top: 20px;
+		right: 10px;
+	}
+}
+@media screen and (max-width: 767px){
+	.serach_filter {
+		max-width: 100%;
+		margin: 40px 0 0;
+	}
+	.guest_profile_section {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+	.rightContent_wrapper {
+		padding: 170px 20px 20px;
+	
+	}
+}
