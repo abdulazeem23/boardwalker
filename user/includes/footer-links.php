@@ -172,7 +172,7 @@
                         </div>
                     </div>
                     <div class="col-12 mb-2">
-                        <div class="form-group confirmationField mb-3">
+                        <div class="form-group confirmationField">
                             <label for="">Search by Location</label>
                             <input type="text" placeholder="Location">
                         </div>

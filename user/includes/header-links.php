@@ -30,11 +30,13 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"></li>
 	<!-- FONT AWESOME -->
 	<!-- STYLE SHEETS -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css" />
 	<link rel="stylesheet" href="assets/css/responsive.css" />
 	<!-- STYLE SHEETS -->
 </head>
 
 <body>
-
-
+	<!-- <div id="loading" class="splashScreen xy-center">
+		<img src="assets/images/logo.png" alt="img" class="splashLogo zoom-in-zoom-out ">
+	</div> -->

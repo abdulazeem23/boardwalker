@@ -37,9 +37,9 @@
 </head>
 
 <body>
-	<div id="loading" class="splashScreen xy-center">
+	<!-- <div id="loading" class="splashScreen xy-center">
 		<img src="assets/images/logo.png" alt="img" class="splashLogo zoom-in-zoom-out ">
-	</div>
+	</div> -->
 	<header class="main_header">
 		<aside class="header_left">
 			<div class="left_menu_wrapper">
@@ -147,7 +147,7 @@
 											<a href="setting.php">Setting</a>
 										</li>
 										<li>
-											<a href="javascript:void(0)">Logout</a>
+											<a href="pre-login.php">Logout</a>
 										</li>
 									</ul>
 								</div>

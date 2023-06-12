@@ -37,9 +37,9 @@
 </head>
 
 <body>
-	<div id="loading" class="splashScreen xy-center">
+	<!-- <div id="loading" class="splashScreen xy-center">
 		<img src="assets/images/logo.png" alt="img" class="splashLogo zoom-in-zoom-out ">
-	</div>
+	</div> -->
 	<header class="main_header">
 		<aside class="header_left">
 			<div class="left_menu_wrapper">
@@ -60,11 +60,11 @@
 							<img class="blue_icon" src="assets/images/Inbox-icon-blue.png" alt="">
 							<span>Inbox</span>
 						</a>
-						<a class="one" href="booking.php">
+						<!-- <a class="one" href="booking.php">
 							<img class="white_icon" src="assets/images/Bookings-icon.png" alt="">
 							<img class="blue_icon" src="assets/images/Bookings-icon-blue.png" alt="">
 							<span>My Bookings</span>
-						</a>
+						</a> -->
 					</div>
 				</div>
 			</div>
@@ -131,7 +131,7 @@
 							<div class="guest_profile_detail">
 								<a class="guest_profile_btn" href="javascript:void(0)">
 									<img src="assets/images/profile-img.png" alt="">
-									<p>User_01</p>
+									<p>Guest_01</p>
 									<img src="assets/images/caret-down.png" alt="">
 								</a>
 								<div class="guest_profile_popup">
@@ -139,7 +139,7 @@
 										<li>
 											<a href="user-profile.php">
 												<img src="assets/images/profile-img.png" alt="">
-												<p>User_01</p>
+												<p>Guest_01</p>
 												<img src="assets/images/caret-down.png" alt="">
 											</a>
 										</li>
@@ -147,7 +147,7 @@
 											<a href="setting.php">Setting</a>
 										</li>
 										<li>
-											<a href="javascript:void(0)">Logout</a>
+											<a href="pre-login.php">Logout</a>
 										</li>
 									</ul>
 								</div>

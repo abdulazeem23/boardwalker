@@ -2,7 +2,7 @@
 
 <section class="rightContent_wrapper property_detail_section1">
     <div class="row">
-        <div class="col-lg-6 col-md-6 col-12">
+        <div class="col-lg-7 col-md-12 col-12">
             <div class="property_detail_content">
                 <div class="property_detail_img">
                     <img src="assets/images/property-detail-img1.png" alt="">
@@ -187,7 +187,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-12">
+        <div class="col-lg-5 col-md-12 col-12">
             <div class="book_a_property_section">
                 <div class="book-property-topSec">
                     <p class="title">Book a Property</p>
