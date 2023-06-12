@@ -1,4 +1,17 @@
-@media only screen and (max-width:1750px){}
+@media only screen and (max-width:1860px){
+	.property-detail-rightSec .properties_box {
+		max-width: 280px;
+	}
+}
+@media only screen and (max-width:1750px){
+	.property_detail_leftCol {
+		max-width: 650px;
+	}
+	.property_detail_rightCol {
+		width: calc(100% - 700px);
+		margin: 0 0 0 auto;
+	}
+}
 @media only screen and (max-width:1600px){
 	.properties_box_wrappper {
 		column-count: unset;
@@ -11,6 +24,14 @@
 	}
 	.myAcc-wrapper {
 		width: 100%;
+	}
+	.property_detail_leftCol {
+		width: 100%;
+		max-width: 600px;
+	}
+	.property_detail_rightCol {
+		width: calc(100% - 650px);
+		margin: 0 0 0 auto;
 	}
 }
 @media only screen and (max-width:1440px){
@@ -25,6 +46,12 @@
 	}
 	.chatRight {
 		width: calc(100% - 400px);
+	}
+	.propertydetail_rightCol_innerRow{
+		justify-content: end;
+	}
+	.property-detail-rightSec .properties_box {
+		max-width: 320px;
 	}
 }
 @media only screen and (max-width:1280px){
@@ -83,10 +110,38 @@
 	.menu_links .one{
 		margin-right: 0;
 	}
+	.User-profile-section {
+		padding: 30px 20px;
+		gap: 10px;
+	}
+	.user_rightSec {
+		padding-left: 0;
+	}
+}
+@media screen and (max-width: 1140px){
+	.property_detail_row {
+		flex-direction: column;
+	}
+	.property_detail_leftCol {
+		width: 100%;
+		max-width: 100%;
+	}
+	.property_detail_img img {
+		max-width: 100%;
+	}
+	.property_detail_rightCol {
+		width: 100%;
+	}
+	.propertydetail_rightCol_innerRow {
+		justify-content: flex-start;
+	}
 }
 @media screen and (max-width: 1024px){
 	.property_Owner_section{
 		margin: 0 auto;
+	}
+	.property_type_option{
+		flex-wrap: wrap;
 	}
 }
 @media screen and (max-width:991px){
@@ -109,5 +164,43 @@
 	}
 	.guest_profile_btn{
 		width: 180px;
+	}
+}
+@media screen and (max-width: 910px){
+	.User-profile-section {
+		flex-direction: column;
+	}
+	.user_leftSec {
+		flex-direction: row;
+		justify-content: flex-start;
+		max-width: 100%;
+		gap: 20px;
+	}
+	.userPicture img {
+		width: 100px;
+		height: 100px;
+	}
+	.user_rightSec {
+		width: 100%;
+	}
+	.profile_editSection {
+		position: absolute;
+		top: 20px;
+		right: 10px;
+	}
+}
+@media screen and (max-width: 767px){
+	.serach_filter {
+		max-width: 100%;
+		margin: 40px 0 0;
+	}
+	.guest_profile_section {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+	.rightContent_wrapper {
+		padding: 170px 20px 20px;
+	
 	}
 }

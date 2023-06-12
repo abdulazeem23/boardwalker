@@ -296,7 +296,7 @@
             </div>                                                                        
         </div>
         <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-12 mb-3">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-3">
                 <div class="review_box">
                     <div class="review_box_topSec">
                         <div class="property_Owner_detail">
@@ -319,7 +319,7 @@
                     <p class="paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-12 mb-3">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-3">
                 <div class="review_box">
                     <div class="review_box_topSec">
                         <div class="property_Owner_detail">
@@ -342,7 +342,7 @@
                     <p class="paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-12 mb-3">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-3">
                 <div class="review_box">
                     <div class="review_box_topSec">
                         <div class="property_Owner_detail">
@@ -365,7 +365,7 @@
                     <p class="paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-12 mb-3">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-3">
                 <div class="review_box">
                     <div class="review_box_topSec">
                         <div class="property_Owner_detail">
@@ -388,7 +388,7 @@
                     <p class="paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-12 mb-3">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-3">
                 <div class="review_box">
                     <div class="review_box_topSec">
                         <div class="property_Owner_detail">
@@ -411,7 +411,7 @@
                     <p class="paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-12 mb-3">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-3">
                 <div class="review_box">
                     <div class="review_box_topSec">
                         <div class="property_Owner_detail">
@@ -434,7 +434,7 @@
                     <p class="paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-12 mb-3">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-3">
                 <div class="review_box">
                     <div class="review_box_topSec">
                         <div class="property_Owner_detail">
@@ -457,7 +457,7 @@
                     <p class="paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-12 mb-3">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-3">
                 <div class="review_box">
                     <div class="review_box_topSec">
                         <div class="property_Owner_detail">

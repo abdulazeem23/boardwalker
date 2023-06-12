@@ -1,8 +1,8 @@
 <?php include 'includes/header.php';?>
 
 <section class="rightContent_wrapper property_detail_section1">
-    <div class="row">
-        <div class="col-lg-6 col-md-6 col-12">
+    <div class="property_detail_row">
+        <div class="property_detail_leftCol">
             <div class="property_detail_content">
                 <div class="property_detail_img">
                     <img src="assets/images/property-detail-img1.png" alt="">
@@ -187,14 +187,14 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-12">
+        <div class="property_detail_rightCol">
             <div class="property-detail-rightSec">
                 <div class="properties_title_section1">
                     <p class="title">Similar Properties</p>
                     <a class="add_properties" href="javascript:void(0)">View All</a>
                 </div>
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-12 mb-4">
+                <div class="propertydetail_rightCol_innerRow">
+                    <div class="propertydetail_rightCol_Col">
                         <div class="properties_box">
                             <div class="swiper propertyBoxSwiper">
                                 <div class="swiper-wrapper">
@@ -247,7 +247,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-12 mb-4">
+                    <div class="propertydetail_rightCol_Col">
                         <div class="properties_box">
                             <div class="swiper propertyBoxSwiper">
                                 <div class="swiper-wrapper">
@@ -300,7 +300,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-12 mb-4">
+                    <div class="propertydetail_rightCol_Col">
                         <div class="properties_box">
                             <div class="swiper propertyBoxSwiper">
                                 <div class="swiper-wrapper">
@@ -353,7 +353,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-12 mb-4">
+                    <div class="propertydetail_rightCol_Col">
                         <div class="properties_box">
                             <div class="swiper propertyBoxSwiper">
                                 <div class="swiper-wrapper">
@@ -406,7 +406,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-12 mb-4">
+                    <div class="propertydetail_rightCol_Col">
                         <div class="properties_box">
                             <div class="swiper propertyBoxSwiper">
                                 <div class="swiper-wrapper">
@@ -459,7 +459,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-12 mb-4">
+                    <div class="propertydetail_rightCol_Col">
                         <div class="properties_box">
                             <div class="swiper propertyBoxSwiper">
                                 <div class="swiper-wrapper">
@@ -512,7 +512,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-12 mb-4">
+                    <div class="propertydetail_rightCol_Col">
                         <div class="properties_box">
                             <div class="swiper propertyBoxSwiper">
                                 <div class="swiper-wrapper">
@@ -565,7 +565,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-12 mb-4">
+                    <div class="propertydetail_rightCol_Col">
                         <div class="properties_box">
                             <div class="swiper propertyBoxSwiper">
                                 <div class="swiper-wrapper">
@@ -618,7 +618,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-12 mb-4">
+                    <div class="propertydetail_rightCol_Col">
                         <div class="properties_box">
                             <div class="swiper propertyBoxSwiper">
                                 <div class="swiper-wrapper">
@@ -671,7 +671,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-12 mb-4">
+                    <div class="propertydetail_rightCol_Col">
                         <div class="properties_box">
                             <div class="swiper propertyBoxSwiper">
                                 <div class="swiper-wrapper">

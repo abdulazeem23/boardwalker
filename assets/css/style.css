@@ -520,6 +520,18 @@ body {
 }
 /* ========== End ========== */
 /* ============ Propertyt Detail Page Css Start Here ============ */
+.property_detail_row {
+    display: flex;
+    align-items: flex-start;
+}
+.property_detail_leftCol {
+    width: 100%;
+    max-width: 800px;
+}
+.property_detail_rightCol {
+    width: calc(100% - 850px);
+    margin: 0 0 0 auto;
+}
 .property_description_top {
     display: flex;
     justify-content: space-between;
@@ -589,8 +601,14 @@ body {
 .property_amenities .title2 {
     padding-bottom: 20px;
 }
+.propertydetail_rightCol_innerRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+}
 .property-detail-rightSec .properties_box {
-    max-width: 100%;
+    max-width: 350px;
 }
 .property-detail-rightSec .properties_box .property_img img {
     max-width: 100%;
@@ -600,8 +618,8 @@ body {
     margin-bottom: 0;
 }
 .ownerImg img {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     border: 2px solid #06244a;
 }
@@ -641,7 +659,7 @@ body {
     color: #fff;
 }
 .review_box_topSec .smallBold {
-    font-size: 14px;
+    font-size: 13px;
     color: #fff;
 }
 .review_box {
@@ -1620,6 +1638,7 @@ input[type=range].lower::-webkit-slider-runnable-track {
     display: flex;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 .User-profile-section .paragraph {
     color: #fff;
